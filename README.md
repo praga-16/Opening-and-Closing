@@ -48,8 +48,8 @@ import numpy as np
 # Create the Text using cv2.putText
 
 text_image = np.zeros((100,250), dtype = 'uint8')
-font = cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
-cv2.putText(text_image, 'Pranave',(5,70),font,2,255,2,cv2.LINE_AA)     
+font = cv2.FONT_HERSHEY_DUPLEX
+cv2.putText(text_image, 'Pragatheesvaran AB',(10,53),font,0.7,255,2,cv2.LINE_AA)     
 plt.imshow(text_image,'bone')
 plt.axis('off')
 
